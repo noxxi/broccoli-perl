@@ -17,6 +17,14 @@ This Perl module provides bindings for `Broccoli
 communication library. In general, the bindings provide the same
 functionality as Broccoli's C API. 
 
+These bindings are a parallel development to other perl bindings,
+because I wasnt't aware of them. See 
+http://git.bro-ids.org/broccoli-perl.git
+for the official bindings.
+
+The main difference is a slightly different idea of setting up
+event handlers and of creating records.
+
 Download
 --------
 
