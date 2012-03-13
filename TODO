@@ -1,0 +1,6 @@
+- there seems to be a problem that it will not use the broccolli_intern.pm
+  file from the build directory for installation, but wants to use it from
+  the source directory
+- set and table do not work yet
+- listen is not implemented
+- maybe move away from swig to plain XS 

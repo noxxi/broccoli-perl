@@ -1,0 +1,44 @@
+.. 	-*- mode: rst -*-
+
+Perl Bindings for Broccoli
+==========================
+
+.. |today| date::
+
+Date: |today|
+
+.. contents::
+
+Overview
+--------
+
+This Perl module provides bindings for `Broccoli
+<http://www.icir.org/christian/broccoli/index.html>`_, Bro's client
+communication library. In general, the bindings provide the same
+functionality as Broccoli's C API. 
+
+Download
+--------
+
+... TODO
+
+Installation
+------------
+
+I'm not really comfortable with cmake yet, but ideally all you would
+need to do is the following after Broccoli itself has been installed:
+
+    > ./configure
+    > ( cd build && make install )
+
+For now there are some obstacles:
+- you need the cmake/ folder from git://git.bro-ids.org/cmake
+- you should add cmake/FindPerlBroccoli.cmake from this repository
+- install might fail because it does not find broccoli_intern.pm.
+  In this case copy it from ./build to ./
+
+
+Usage
+-----
+
+See examples in the tests/ folder
